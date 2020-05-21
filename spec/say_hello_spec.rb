@@ -4,7 +4,7 @@ describe "say_hello" do
 
   it 'accepts an argument of a name and prints out Hello with that Name' do
     expect($stdout).to receive(:puts).with("Kent Beck")
-    say_hello(kent)
+    say_hello (kent)
 
   end
 
